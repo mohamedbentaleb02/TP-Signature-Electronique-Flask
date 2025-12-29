@@ -1,0 +1,14 @@
+# Ignorer les clés de sécurité (CRITIQUE)
+keys/
+*.pem
+
+# Ignorer la base de données locale
+signatures.db
+
+# Ignorer les dossiers système Python
+__pycache__/
+venv/
+.env
+
+# Ignorer les fichiers uploadés/générés
+uploads/
